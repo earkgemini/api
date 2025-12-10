@@ -7,7 +7,7 @@
 -- [สำหรับลูกค้า] ใส่ Key ที่นี่ หรือใช้ _G.Key ก็ได้
 local SCRIPT_KEY = _G.Key or "AnityX-KEY-HERE" 
 local SCRIPT_ID = "default"
-local API_DOMAIN = "http://localhost:3000" -- [สำคัญ] เปลี่ยนเป็นลิ้งค์เว็บจริง (Railway) ก่อนอัปโหลดลง GitHub
+local API_DOMAIN = "https://anityx-server.onrender.com" -- [สำคัญ] เปลี่ยนเป็นลิ้งค์เว็บจริง (Railway) ก่อนอัปโหลดลง GitHub
 
 -- [[ วิธีใช้งานแบบ RAW ]] --
 -- 1. แก้ API_DOMAIN ให้เป็นลิ้งค์เว็บจริง
@@ -67,3 +67,4 @@ end
 
 -- Init
 LoadScript()
+
